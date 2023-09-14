@@ -1,0 +1,221 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Oswald:wght@200;400&family=Raleway&family=Roboto+Slab&display=swap');
+  *{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Oswald', open+sans-serif;
+
+  }
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+h4{
+    font-size: 20px;
+    color: #222;
+
+}
+h6{
+    font-weight: 700;
+    color: #222;
+}
+P {
+font-size: 16px;
+color: #465b52;
+margin: 15px 0 20px 0;
+
+}
+.section-p1 {
+    padding: 40px 80px;
+
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    left: 0;
+
+ }
+ #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ #navbar li{
+    list-style: none;
+    padding: 0 20px;
+   
+
+ }
+ #navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    position: relative;
+    right: -140px;
+    transition: 0.3s ease;
+
+ }
+ #navbar li a:hover,
+ #navbar li a.active
+ {
+    color: #088178;
+    font-size: 1.05rem;
+ }
+ #navbar li a.active::after,
+ #navbar li a:hover::after{
+
+    content:"" ;
+    width: 70%;
+    height: 2px;
+    background-color: #088178 ;
+    position: absolute;
+    bottom: -6px;
+    left: 0px;
+ }
+ .firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -20px 0;
+    background-color: rgb(218, 217, 216);
+
+ }
+ 
+.rightsection{
+    margin: 100px ;
+}
+.leftsection h4{
+    padding-bottom: 15px;
+
+}
+.leftsection h1{
+    color: #088178;
+
+}
+.leftsection button{
+    background-image: url("button.png");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+#features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#features .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px ;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px ;
+    margin: 15px 0;
+}
+#features .fe-box:hover{
+    box-shadow:10px 10px 54px rgba(70,62,221, 0.1) ;
+}
+#features .fe-box h4{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: rgb(244, 212, 180);
+}
+#features .fe-box:nth-child(2) h4{
+    background-color: rgb(164, 208, 238);
+}
+#features .fe-box:nth-child(3) h4{
+    background-color: rgb(65, 232, 199);
+}
+#features .fe-box:nth-child(4) h4{
+    background-color: rgb(206, 157, 239);
+}
+#features .fe-box:nth-child(5) h4{
+    background-color: rgb(198, 201, 202);
+}
+#features .fe-box:nth-child(6) h4{
+    background-color: rgb(205, 244, 155);
+}
+#product1 h2,p{
+    text-align: center;
+}
+#collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#collection .pro-container{
+    width: 250px;
+    text-align: center;
+    padding: 25px 15px ;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px ;
+    margin: 15px 0;
+    cursor: pointer;
+}
+#collection .pro-container:hover{
+    box-shadow:10px 10px 54px rgba(70,62,221, 0.1) ;
+    width: 50;
+    height: 60;
+}
+#main hr {
+    border: 0px;
+    height: 1.2px;
+    background-color: white;
+    margin: 72px;
+}
+#footer{
+    background-color: rgb(147, 147, 144);
+    color: black;
+    padding: 20px 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 0px;
+    
+
+}
+main hr {
+    border: 0px;
+    height: 1.2px;
+    background-color: rgb(148, 152, 153);
+    
+}
+
+
+
+
+
